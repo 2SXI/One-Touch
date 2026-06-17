@@ -1,45 +1,158 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset
+  xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xmlns:image="http://www.google.com/schemas/sitemap-image/1.1"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml"
+  xsi:schemaLocation="
+    http://www.sitemaps.org/schemas/sitemap/0.9
+    http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd
+    http://www.google.com/schemas/sitemap-image/1.1
+    http://www.google.com/schemas/sitemap-image/1.1/sitemap-image.xsd">
+
+  <!-- ═══════════════════════════════════════════
+       HOMEPAGE
+  ═══════════════════════════════════════════ -->
   <url>
     <loc>https://onetouchinteriors.co.zw/</loc>
     <lastmod>2026-06-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
+    <image:image>
+      <image:loc>https://onetouchinteriors.co.zw/images/kitchen1.jpg</image:loc>
+      <image:title>Custom Kitchen Cabinets — One Touch Interiors Harare</image:title>
+      <image:caption>Precision-built custom kitchen by One Touch Interiors, Harare Zimbabwe</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://onetouchinteriors.co.zw/images/wardrobe.jpg</image:loc>
+      <image:title>Built-in Sliding Wardrobe — One Touch Interiors Harare</image:title>
+      <image:caption>Floor-to-ceiling sliding wardrobe installed by One Touch Interiors</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://onetouchinteriors.co.zw/images/shopfittings.jpg</image:loc>
+      <image:title>Retail Shop Fittings — One Touch Interiors Zimbabwe</image:title>
+      <image:caption>Heavy-duty commercial shop fittings by One Touch Interiors</image:caption>
+    </image:image>
   </url>
+
+  <!-- ═══════════════════════════════════════════
+       SERVICES (highest crawl priority after home)
+  ═══════════════════════════════════════════ -->
   <url>
-    <loc>https://onetouchinteriors.co.zw/#about</loc>
+    <loc>https://onetouchinteriors.co.zw/services.html</loc>
     <lastmod>2026-06-17</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.95</priority>
+    <image:image>
+      <image:loc>https://onetouchinteriors.co.zw/images/kitchen1.jpg</image:loc>
+      <image:title>Kitchen Cabinet Installation Service — Harare Zimbabwe</image:title>
+      <image:caption>Custom kitchen cabinets and countertops built and installed by One Touch Interiors</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://onetouchinteriors.co.zw/images/llounge4.jpg</image:loc>
+      <image:title>Architectural Ceiling Installation — One Touch Interiors Harare</image:title>
+      <image:caption>Bespoke architectural ceiling with LED lighting installed in Harare</image:caption>
+    </image:image>
   </url>
+
+  <!-- ═══════════════════════════════════════════
+       CONTACT / QUOTE (conversion page)
+  ═══════════════════════════════════════════ -->
   <url>
-    <loc>https://onetouchinteriors.co.zw/#services</loc>
+    <loc>https://onetouchinteriors.co.zw/contact.html</loc>
+    <lastmod>2026-06-17</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.90</priority>
+  </url>
+
+  <!-- ═══════════════════════════════════════════
+       GALLERY / PORTFOLIO
+  ═══════════════════════════════════════════ -->
+  <url>
+    <loc>https://onetouchinteriors.co.zw/gallery.html</loc>
     <lastmod>2026-06-17</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
+    <priority>0.85</priority>
+    <image:image>
+      <image:loc>https://onetouchinteriors.co.zw/images/kitchen1.jpg</image:loc>
+      <image:title>Custom Kitchen Installation — One Touch Interiors Portfolio</image:title>
+      <image:caption>Contemporary kitchen suite built and installed by One Touch Interiors, Harare</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://onetouchinteriors.co.zw/images/kitchen2.jpg</image:loc>
+      <image:title>Gloss White Kitchen Units — One Touch Interiors Harare</image:title>
+      <image:caption>Full kitchen fit-out with gloss white units installed in Harare</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://onetouchinteriors.co.zw/images/kitchen3.jpg</image:loc>
+      <image:title>Luxury Kitchen Remodel — One Touch Interiors Zimbabwe</image:title>
+      <image:caption>Premium finish luxury kitchen remodel by One Touch Interiors</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://onetouchinteriors.co.zw/images/wardrobe.jpg</image:loc>
+      <image:title>Sliding Built-in Wardrobe — One Touch Interiors Harare</image:title>
+      <image:caption>Sliding wardrobe suite installed by One Touch Interiors</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://onetouchinteriors.co.zw/images/llounge4.jpg</image:loc>
+      <image:title>Luxury Ceiling and Lounge Installation — Harare</image:title>
+      <image:caption>Luxury ceiling and lounge ambient styling by One Touch Interiors</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://onetouchinteriors.co.zw/images/shopfittings.jpg</image:loc>
+      <image:title>Retail Shop Fittings — One Touch Interiors Zimbabwe</image:title>
+      <image:caption>Heavy duty display shop fittings installed by One Touch Interiors</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://onetouchinteriors.co.zw/images/wworkspace.jpg</image:loc>
+      <image:title>Pharmacy Fit-out — One Touch Interiors Harare</image:title>
+      <image:caption>Organised pharmacy merchandiser fit-out by One Touch Interiors</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://onetouchinteriors.co.zw/images/shopfittings2.jpg</image:loc>
+      <image:title>Merchandising Display Shelving — One Touch Interiors</image:title>
+      <image:caption>Custom merchandising display shelving units by One Touch Interiors</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://onetouchinteriors.co.zw/images/wworkspace1.jpg</image:loc>
+      <image:title>Full Commercial Interior Fit-out — Harare Zimbabwe</image:title>
+      <image:caption>Full commercial interior fit-out completed by One Touch Interiors</image:caption>
+    </image:image>
   </url>
+
+  <!-- ═══════════════════════════════════════════
+       TESTIMONIALS / REVIEWS
+  ═══════════════════════════════════════════ -->
   <url>
-    <loc>https://onetouchinteriors.co.zw/#gallery</loc>
+    <loc>https://onetouchinteriors.co.zw/testimonials.html</loc>
     <lastmod>2026-06-17</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.75</priority>
   </url>
+
+  <!-- ═══════════════════════════════════════════
+       FAQ (rich result eligible)
+  ═══════════════════════════════════════════ -->
   <url>
-    <loc>https://onetouchinteriors.co.zw/#testimonials</loc>
+    <loc>https://onetouchinteriors.co.zw/faq.html</loc>
     <lastmod>2026-06-17</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
+    <priority>0.70</priority>
   </url>
+
+  <!-- ═══════════════════════════════════════════
+       ABOUT
+  ═══════════════════════════════════════════ -->
   <url>
-    <loc>https://onetouchinteriors.co.zw/#faq</loc>
+    <loc>https://onetouchinteriors.co.zw/about.html</loc>
     <lastmod>2026-06-17</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
+    <changefreq>yearly</changefreq>
+    <priority>0.60</priority>
+    <image:image>
+      <image:loc>https://onetouchinteriors.co.zw/images/wworkspace1.jpg</image:loc>
+      <image:title>One Touch Interiors Workshop — Harare Zimbabwe</image:title>
+      <image:caption>One Touch Interiors joinery workshop, Harare — precision manufacturing locally</image:caption>
+    </image:image>
   </url>
-  <url>
-    <loc>https://onetouchinteriors.co.zw/#contact</loc>
-    <lastmod>2026-06-17</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
-  </url>
+
 </urlset>
